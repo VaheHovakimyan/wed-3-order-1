@@ -1,0 +1,18 @@
+.footer_main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 12px;
+ 
+  .footer_image {
+    border: 1px black solid;
+    border-radius: 50%;
+  }
+
+  .footer_names {
+    font-size: 21px;
+    font-family: "Pinyon Script", sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+.calendar_main{
+  background-image: url('../../images/calendar_main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 190px;
+  position: relative;
+  .calendar_heart{
+    position: absolute;
+    top: 162px;
+    left: 77px;
+    width: 40px;
+    height: 40px;
+    animation: scaleUp 1.5s ease-in-out forwards infinite;
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

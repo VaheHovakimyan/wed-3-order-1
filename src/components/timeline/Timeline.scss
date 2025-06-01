@@ -1,0 +1,34 @@
+.timeline{
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  .timeline_title{
+    font-family: "Pinyon Script", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 32px;
+    margin: 12px auto;
+  }
+  .timeline_item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    .timeline_item_top{
+      font-family: "Cormorant SC", sans-serif;
+      font-weight: 400;
+      display: flex;
+      justify-content: space-between;
+    }
+    .timeline_item_middle{
+      display: flex;
+      align-items: center;
+    }
+    .timeline_text{
+      font-weight: 400;
+      font-size: 13px;
+      padding-left: 4px;
+    }
+  }
+}
